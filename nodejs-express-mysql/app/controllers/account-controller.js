@@ -15,7 +15,7 @@ exports.hello = (req, res) => {
 
 
 
-const mongoUrl =  process.env.MONGO_DB_URL ||"mongodb://127.0.0.1:27017/test"
+const mongoUrl =  process.env.DB_URL ||"mongodb://127.0.0.1:27017/test"
  // "mongodb://root:example@127.0.0.1:27017/admin"//?directConnection=true&serverSelectionTimeoutMS=2000&appName=mongosh+1.6.2";
 
 mongoose
