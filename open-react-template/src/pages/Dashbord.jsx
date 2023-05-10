@@ -8,7 +8,7 @@ export default function UserDetails() {
   const [admin, setAdmin] = useState(false);
 
   useEffect(() => {
-    fetch("http://node-svc:3302/", {
+    fetch("/api/userData", {
       method: "POST",
       crossDomain: true,
       headers: {
